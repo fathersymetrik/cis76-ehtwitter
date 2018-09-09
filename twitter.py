@@ -30,7 +30,7 @@ print('[DEBUG NOTE] I am using a version of Tweepy that does not seem to support
 
 class create_core():
     def __init__(self, tweepy, t_args):
-    # decoded strings because 'buffer interface' errors on opus
+    # decoded strings because 'buffer interface' errors
     # get your own!
         self.consumer_key = 'Y ... g';
         self.consumer_secret = 'D ... O';
